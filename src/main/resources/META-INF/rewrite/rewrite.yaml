@@ -1,0 +1,8 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.example.openrewrite_demo.SayHelloMainRecipe
+displayName: Say Hello Recipe
+description: Renames the 'hello' method to 'sayHello' in the specified class.
+recipeList:
+  - com.example.openrewrite_demo.SayHelloRecipe
+#properties:
+#  className: "com.example.openrewrite_demo.Example"  # This is the parameter passed to the recipe constructor
